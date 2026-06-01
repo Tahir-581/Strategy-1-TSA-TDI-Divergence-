@@ -18,13 +18,17 @@ Pine Script **strategy** combining **TSA TDI** (Traders Dynamic Index variant) w
 - Configurable stop loss / take profit (pips)
 - Overlay strategy on price chart
 
-## Import into TradingView
+## Installation
 
-1. Open **Pine Editor** on TradingView.
-2. Paste contents of `TSA_TDI_Divergence_Strategy.pine`.
-3. **Save** → **Add to chart**.
-4. Enable **Strategy Tester** for backtests.
-5. Tune inputs: pivot period, TDI lengths, SL/TP, divergence lookback.
+1. Install [TradingView](https://www.tradingview.com/) (free account is sufficient).
+2. Open the **Pine Editor** from any chart.
+
+## Usage
+
+1. Paste contents of `TSA_TDI_Divergence_Strategy.pine` into the editor.
+2. Click **Save** → **Add to chart**.
+3. Open **Strategy Tester** to backtest on your symbol/timeframe.
+4. Tune inputs: pivot period, TDI lengths, SL/TP, divergence lookback.
 
 ## Disclaimer
 
